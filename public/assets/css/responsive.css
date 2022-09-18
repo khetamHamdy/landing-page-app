@@ -1,0 +1,107 @@
+@media screen and (max-width: 1199px) {}
+@media screen and (max-width: 991px) {
+	.hamburger{
+		display: block;
+	}
+    .main_menu, .contact-header {
+        display: none;
+    }
+    #header .container {
+        justify-content: center;
+    }
+    .section_home {
+        padding-top: 0;
+        
+    }
+    .section_home:before {
+        opacity: .4;
+    }
+    .home_txt {
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .sec_head h2 {
+        font-size: 27px;
+    }
+    .txt-about {
+        margin-bottom: 40px;
+    }
+    .item-serv {
+        display: block;
+    }
+    .item-serv figure, .item-serv figure img {
+        width: 100%
+    }
+    .item-serv .txt-serv {
+        width: 100%;
+    }
+    .btn-viewAll {
+        top: -35px;
+    }
+    .nav-tabs .nav-link {
+        padding: 10px 10px;
+        margin: 0 5px;
+    }
+    .item-port {
+        margin-bottom: 30px;
+    }
+    .l-arrow:before, .about-analysis:after, .r-arrow:before {
+        display: none
+    }
+    .lay-bottom {
+        padding-top: 0rem;
+        display: block;
+    }
+    .lay-bottom  .trans-box,.lay-bottom  .about-box {
+        left: 50%;
+        transform: translateX(-50%) !important;
+        margin: 5px 0 !important
+    }
+    .content-testi {
+        display: block;
+        padding-left: 5%;
+    }
+    .section_testimonials .sec_head {
+        width: 100%;
+    }
+    .section_testimonials .owl-carousel {
+        width: 100%;
+        padding-left: 0;
+    }
+    .item-blog {
+        margin-bottom: 30px;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .hamburger{
+		display: block;
+	}
+    .main_menu, .contact-header {
+        display: none;
+    }
+    .section_home {
+        padding-top: 0;
+    }
+    .section_home:before {
+        opacity: .4;
+    }
+    
+    .d-flex {
+        width: 100%;
+        display: block !important;
+    }
+    .d-flex .form-group {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .form-join:before {
+        display: none;
+    }
+    
+    
+}
+@media screen and (max-width: 500px) {
+	
+}
